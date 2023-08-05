@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Overpass+Mono&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>TextEditor 2.0</title>
+</head>
+
+<body>
+
+    <header class="header">
+
+        <button class="btn change_add_text">
+            <img src="./edit.png" alt="">
+        </button>
+
+        <div class="container_button first">
+            <button class="btn bold">
+                <img src="./B.png" alt="">
+            </button>
+            <button class="btn cursive">
+                <img src="./I.png" alt="">
+            </button>
+            <button class="btn pidkresl">
+                <img src="./U.png" alt="">
+            </button>
+            <button class="btn zakresl">
+                <img src="./T.png" alt="">
+            </button>
+        </div>
+
+        <div class="container_button second">
+            <button class="btn left">
+                <img src="./left.png" alt="">
+            </button>
+            <button class="btn center">
+                <img src="./center.png" alt="">
+            </button>
+            <button class="btn right">
+                <img src="./right.png" alt="">
+            </button>
+        </div>
+
+        <div class="container_button third">
+
+            <select class="btn" name="fontFamily" id="fontFamily">
+                <option selected>A</option>
+                <option value="Times New Roman">Times New Roman</option>
+                <option value="Montserrat">Montserrat</option>
+                <option value="Overpass Mono">Overpass Mono</option>
+            </select>
+
+            <select class="btn" name="fontSize" id="fontSize">
+                <option selected>T</option>
+                <option value="12px">12px</option>
+                <option value="14px">14px</option>
+                <option value="16px">16px</option>
+                <option value="18px">18px</option>
+                <option value="20px">20px</option>
+                <option value="22px">22px</option>
+                <option value="25px">25px</option>
+                <option value="30px">30px</option>
+            </select>
+
+            <button class="btn palitre">
+                <img src="./palitre.png" alt="">
+            </button>
+            <button class="btn img">
+                <img src="./photo.png" alt="">
+            </button>
+        </div>
+
+        <button class="btn lock">
+            <img src="./lock.png" alt="">
+        </button>
+
+    </header>
+
+    <!-- block with text -->
+    <div class="container_text">
+        <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et eum aperiam quartet itaque!</p>
+        <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et eum aperiam quartet itaque!</p>
+        <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et eum aperiam quartet itaque!</p>
+        <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et eum aperiam quartet itaque!</p>
+        <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et eum aperiam quartet itaque!</p>
+        <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et eum aperiam quartet itaque!</p>
+        <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et eum aperiam quartet itaque!</p>
+    </div>
+
+    <!--Block change text color -->
+    <div class="container_colors invisible">
+        <p class="text_colors">Chose text color</p>
+        <img src="https://w7.pngwing.com/pngs/336/356/png-transparent-close-remove-delete-x-cross-reject-basic-user-interface-icon.png"
+            class="exit" alt="exit">
+        <div class="container_colors_blocks">
+            <div class="block red_color"></div>
+            <div class="block yellow_color"></div>
+            <div class="block green_color"></div>
+            <div class="block black_color"></div>
+            <div class="block purple_color"></div>
+            <div class="block aqua_color"></div>
+            <div class="block blue_color"></div>
+            <div class="block brown_color"></div>
+            <div class="block orange_color"></div>
+            <div class="block grey_color"></div>
+        </div>
+    </div>
+    <!-- Block change Backgroud -->
+    <div class="container_colors_background invisible">
+        <p class="text_colors">Chose background color or image</p>
+        <img src="https://w7.pngwing.com/pngs/336/356/png-transparent-close-remove-delete-x-cross-reject-basic-user-interface-icon.png"
+            class="exit" id="exit_bg" alt="exit">
+        <div class="container_buttons">
+            <div class="btn_colors">Colors</div>
+            <div class="btn_images">Images</div>
+            <div class="btn_files">File</div>
+        </div>
+        <div class="container_colors_page">
+            <div class="container_colors_blocks">
+                <div class="block red_color"></div>
+                <div class="block yellow_color"></div>
+                <div class="block green_color"></div>
+                <div class="block black_color"></div>
+                <div class="block purple_color"></div>
+                <div class="block aqua_color"></div>
+                <div class="block blue_color"></div>
+                <div class="block brown_color"></div>
+                <div class="block orange_color"></div>
+                <div class="block grey_color"></div>
+            </div>
+        </div>
+        <div class="container_img_page invisible">
+
+        </div>
+        <div class="container_file_upload invisible">
+
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

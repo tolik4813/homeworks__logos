@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hw5</title>
+    <style>
+        .block{
+            width: 100px;
+            height: 100px;
+            margin-right: 20px;
+            border: 1px solid black;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+        .one {
+            background-color: blueviolet;
+        }
+        .elem_li {
+            cursor: pointer;
+        }
+        .container_img_bloks {
+            display: flex;
+        }
+        .secret {
+            background-color: aqua;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .second_secret {
+            background-color: blue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .third_secret {
+            background-color: red;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <p>COLOR</p>
+    <div class="block one"></div>
+    <p>OL RAINBOW</p>
+    <ol class="list">
+        <li class="elem_li red">red</li>
+        <li class="elem_li yellow">yellow</li>
+        <li class="elem_li green">green</li>
+        <li class="elem_li blue">blue</li>
+        <li class="elem_li orange">orange</li>
+        <li class="elem_li gray">gray</li>
+    </ol>
+    <p>SECRET BOX</p>
+    <div class="block secret">У мене є секрет!</div>
+    <p>PASTE IMG</p>
+    <div class="container_img_bloks">
+        <div class="block img_one"></div>
+        <div class="block img_second"></div>
+        <div class="block img_third"></div>
+    </div>
+
+
+
+    <script src="./script.js"></script>
+</body>
+</html>

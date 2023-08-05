@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+    <title>hw9</title>
+    <style>
+        #registration-form {
+            width: 300px;
+            height: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            margin: 150px auto 0px;
+        }
+        .main_container {
+            width: 300px;
+            height: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            margin: 150px auto;
+        }
+        input {
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            margin-bottom: 20px;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #3e8e41;
+        }
+        .incorrect {
+            border: 1px solid red;
+        }
+        .good {
+            border: 1px solid green;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main_container">
+        <form id="registration-form">
+            <input type="text" id="firstName" class="firstName" placeholder="First Name" >
+            <input type="text" id="lastName" class="lastName" placeholder="Last Name" >
+            <input type="email" id="email" class="email" placeholder="Email" >
+            <input type="tel" id="mobile" class="mobile" placeholder="Phone number" >
+            <input type="password" id="password" class="password" placeholder="password" >
+        </form>
+        <button type="button" onclick="validation()">Sing up</button>
+    </div>
+</body>
+
+<script src="./script.js"></script>
+
+</html>

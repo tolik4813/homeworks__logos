@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hw6_backgrounds</title>
+    <style>
+        *{
+            font-size: 25px;
+            font-weight: 600;
+        }
+        body{
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .color {
+            cursor: pointer;
+        }
+        .image {
+            cursor: pointer;
+        }
+        .container_colors {
+            border: 1px solid black;
+            width: 600px;
+            height: 450px;
+            margin: 0 auto;
+        }
+        .container_images {
+            border: 1px solid black;
+            width: 600px;
+            height: 450px;
+            margin: 0 auto;
+        }
+        .colors {
+            width: 198px;
+            height: 148px;
+            float: left;
+            border: 1px solid black;
+        }
+        .aqua {
+            background-color: aqua;
+        }
+        .brown {
+            background-color: brown;
+        }
+        .red {
+            background-color: red;
+        }
+        .blue {
+            background-color: blue;
+        }
+        .purple {
+            background-color: purple;
+        }
+        .yellow {
+            background-color: yellow;
+        }
+        .green {
+            background-color: green;
+        }
+        .lawngreen {
+            background-color: lawngreen;
+        }
+        .gray {
+            background-color: gray;
+        }
+        .invisible {
+            display: none;
+        }
+        .img_one {
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-image: url(https://cs14.pikabu.ru/post_img/big/2023/01/09/9/1673278708140859048.jpg);
+        }
+        .img_two {
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-image: url(https://phonoteka.org/uploads/posts/2021-07/1625523912_1-phonoteka-org-p-krutie-zastavki-na-noutbuk-krasivie-zastav-1.jpg);
+        }
+        .img_three {
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-image: url(https://kartinkin.net/uploads/posts/2022-12/thumbs/1670624785_59-kartinkin-net-p-kartinki-na-glavnii-ekran-noutbuka-oboi-59.jpg);
+        }
+        .img_four {
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-image: url(https://phonoteka.org/uploads/posts/2022-04/thumbs/1651143616_68-phonoteka-org-p-oboi-na-rabochii-stol-razbitii-monitor-kra-68.jpg);
+        }
+        .img_five {
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-image: url(https://oir.mobi/uploads/posts/2021-03/thumbs/1616576599_28-p-fon-na-noutbuk-dlya-rabochego-stola-31.jpg);
+        }
+        .img_six {
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-image: url(https://gamerwall.pro/uploads/posts/2021-11/thumbs/1637612609_2-gamerwall-pro-p-oboi-na-noutbuk-minimalizm-oboi-na-rabochi-2.jpg);
+        }
+        .img_seven {
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-image: url(https://i.pinimg.com/originals/8b/a4/13/8ba413bde26ce704c31be2c118226d3b.jpg);
+        }
+        .img_eight {
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-image: url(https://tipik.ru/wp-content/uploads/2019/06/%D0%97%D0%B0%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%B0-%D0%B4%D0%BB%D1%8F-%D0%BD%D0%BE%D1%83%D1%82%D0%B1%D1%83%D0%BA%D0%B0-%D1%81%D0%BA%D0%B0%D1%87%D0%B0%D1%82%D1%8C-%D0%B1%D0%B5%D1%81%D0%BF%D0%BB%D0%B0%D1%82%D0%BD%D0%BE018-1.jpg);
+        }
+        .img_nine {
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-image: url(https://cs14.pikabu.ru/post_img/big/2023/01/09/9/1673278708123260378.jpg);
+        }
+        .crest {
+            width: 25px;
+            cursor: pointer;
+            height: 25px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6I2ykSI42qptZyh3bNoOHpyLkANv_X5d0aXbeGx8&s);
+        }
+    </style>
+</head>
+<body>
+    <div class="crest"></div>
+    <p class="color">Колір</p>
+    <p class="image">Зображення</p>
+    <div class="container_colors invisible">
+        <div class="colors aqua"></div>
+        <div class="colors brown"></div>
+        <div class="colors red"></div>
+        <div class="colors blue"></div>
+        <div class="colors purple"></div>
+        <div class="colors yellow"></div>
+        <div class="colors green"></div>
+        <div class="colors lawngreen"></div>
+        <div class="colors gray"></div>
+    </div>
+
+
+
+    <div class="container_images invisible">
+        <div class="colors img_one"></div>
+        <div class="colors img_two"></div>
+        <div class="colors img_three"></div>
+        <div class="colors img_four"></div>
+        <div class="colors img_five"></div>
+        <div class="colors img_six"></div>
+        <div class="colors img_seven"></div>
+        <div class="colors img_eight"></div>
+        <div class="colors img_nine"></div>
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>

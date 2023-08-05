@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hw_7_SingUp</title>
+    <style>
+        body {
+            padding-left: 50%;
+            padding-top: 10%;
+        }
+
+        .sing_up_container {
+            overflow: hidden;
+            transform: translate(-50%);
+            width: 350px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            border-radius: 8px;
+            border: 1px solid black;
+        }
+
+        .header {
+            background-color: green;
+            width: 100%;
+            text-align: center;
+            color: white;
+            margin-bottom: 15px;
+        }
+
+        input {
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+
+        #position {
+            margin-top: 15px;
+        }
+
+        #firstName {
+            width: 95%;
+        }
+
+        #secondName {
+            width: 95%;
+        }
+
+        #emailAddres {
+            width: 95%;
+        }
+
+        #position {
+            width: 95%;
+        }
+
+        .btn_sing_up {
+            width: 99%;
+            background-color: green;
+            cursor: pointer;
+            color: white;
+            border-radius: 8px;
+        }
+
+        .btn_sing_up_no {
+            width: 99%;
+            background-color: grey;
+            color: white;
+            border-radius: 8px;
+        }
+
+        .invisible {
+            display: none;
+        }
+
+        .container_user {
+            overflow: hidden;
+            transform: translate(-50%);
+            width: 350px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            border-radius: 8px;
+            border: 1px solid black;
+        }
+
+        .user_img_man {
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            border: 5px solid white;
+        }
+
+        .user_img_woman {
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            border: 5px solid white;
+        }
+
+        .header_user {
+            background-color: green;
+            width: 100%;
+            height: 60px;
+            display: flex;
+            justify-content: center;
+            padding-top: 35px;
+        }
+
+        .user_name {
+            margin-top: 45px;
+            font-size: 18px;
+            font-weight: 800;
+        }
+
+        .user_email {
+            font-size: 15px;
+            margin-top: 0px;
+            font-weight: 500;
+        }
+
+        .user_position {
+            margin-top: 0px;
+            font-size: 18px;
+            font-weight: 500;
+        }
+
+        .btn_sing_out {
+            width: 150px;
+            background-color: green;
+            cursor: pointer;
+            border-radius: 8px;
+            color: white;
+            margin-top: -10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="sing_up_container">
+        <header class="header">
+            <h3>Create your account</h3>
+        </header>
+        <form action="" class="sing_up">
+            <label for="firstName">First Name</label>
+            <br>
+            <input type="text" id="firstName" placeholder="type here...">
+            <br>
+            <label for="secondName">Second Name</label>
+            <br>
+            <input type="text" id="secondName" placeholder="type here...">
+            <br>
+            <label for="emailAddres">Email address</label>
+            <br>
+            <input type="email" id="emailAddres" placeholder="entre email">
+            <br>
+            <input type="radio" name="gender" class="radio_btn">
+            <label for="gender">man</label>
+            <input type="radio" name="gender" class="radio_btn">
+            <label for="gender">woman</label>
+            <br>
+            <label for="position">Position</label>
+            <br>
+            <select name="position_select" id="position">
+                <option value="">Select your option</option>
+                <option value="Fronted">Fronted</option>
+                <option value="Backend">Backend</option>
+                <option value="QC/QA">QC/QA</option>
+            </select>
+            <br>
+            <input type="checkbox" id="check">
+            <label for="check">I agree all statements in Terms of service</label>
+            <br>
+            <input type="button" class="btn_sing_up_no" value="Sing Up">
+        </form>
+    </div>
+
+
+    <div class="invisible">
+        <header class="header_user">
+            <div class="user_img">
+                <img src="./man_img.jpeg" alt="" class="user_img_man">
+                <img src="./woman_img.png" alt="" class="user_img_woman">
+            </div>
+        </header>
+        <p class="user_name"></p>
+        <p class="user_email"></p>
+        <p class="user_position"></p>
+        <hr>
+        <input type="button" class="btn_sing_out" value="Sing Out">
+        <footer class="user_footer">
+            <img src="" alt="" class="footer_img_one">
+            <img src="" alt="" class="footer_img_two">
+            <img src="" alt="" class="footer_img_three">
+        </footer>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
