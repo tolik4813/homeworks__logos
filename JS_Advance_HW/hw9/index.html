@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>hw9</title>
+</head>
+
+<body>
+    <h1>User List</h1>
+    <form id="userForm">
+        <input type="text" id="nameInput" placeholder="Name">
+        <input type="email" id="emailInput" placeholder="Email">
+        <input type="password" id="passwordInput" placeholder="Password">
+        <button type="button" id="addButton">Add User</button>
+        <button type="button" id="editButton" style="display: none;">Edit User</button>
+    </form>
+    <table id="userTable">
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Password</th>
+            <th>Actions</th>
+        </tr>
+    </table>
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

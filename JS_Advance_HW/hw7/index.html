@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>hw7</title>
+</head>
+
+<body>
+    <div class="container_search">
+        <input type="text" class="input" id="movie-input" placeholder="Enter movie title">
+        <button class="searchBtn" id="search-btn">Search</button>
+    </div>
+
+    <div id="movie-details" class="movie-details" style="display: none;">
+        <div id="posters"></div>
+        <h3 id="details-title"></h3>
+        <p class="movie">movie</p>
+        <button class="moreBtn" id="more-details-btn" onclick="readMore()">More Details</button>
+    </div>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModalWindow()">&times;</span>
+            <h3 id="modal-Awards"></h3>
+            <h2 id="year"></h2>
+            <p id="rating">
+            <p></p>
+            <p id="modal-Released"></p>
+            <p id="details-plot"></p>
+            <p id="modal-Director"></p>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "target": "ES6",
+        "watch": true,
+        "removeComments": true,
+        "outFile": "script.js"
+    },
+    "files": [
+        "script.ts"
+    ],
+    "exclude": ["node_modules"],
+    "compileOnSave": true
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hw2</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        .form {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-top: 40px;
+            margin-left: 50%;
+            width: 300px;
+            transform: translate(-50%, +100%);
+        }
+
+        .form h2 {
+            margin-top: 0;
+        }
+
+        .form input[type="email"],
+        .form input[type="password"],
+        .form input[type="text"] {
+            display: block;
+            margin-bottom: 10px;
+            width: 100%;
+            padding: 5px;
+        }
+
+        .form button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 5px
+        }
+
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="register" class="form">
+        <h2>Реєстрація</h2>
+        <input type="text" id="reg-name" placeholder="Ім'я">
+        <input type="email" id="reg-email" placeholder="E-mail">
+        <input type="password" id="reg-password" placeholder="Пароль">
+        <button id="reg-btn">Зареєструватися</button>
+    </div>
+
+    <div id="login" class="form">
+        <h2>Логінування</h2>
+        <input type="email" id="login-email" placeholder="E-mail">
+        <input type="password" id="login-password" placeholder="Пароль">
+        <button id="login-btn">Sing In</button>
+    </div>
+
+    <div id="profile" class="form hidden">
+        <h2>Профіль</h2>
+        <p>Ім'я: <span id="profile-name"></span></p>
+        <p>E-mail: <span id="profile-email"></span></p>
+        <button id="logout-btn">Sign Out</button>
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

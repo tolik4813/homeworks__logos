@@ -1,0 +1,137 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.closeWindow {
+    color: #aaa;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.closeWindow:hover {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.movie-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+    width: 300px;
+    height: 500px;
+    border: 2px solid black;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+#posters_img{
+    width: 300px;
+    height: 350px;
+    border-radius: 5px;
+    margin-bottom: 0px;
+}
+
+#posters{
+    background-color: gray;
+}
+
+#details-title {
+    width: 100%;
+    height: 75px;
+    font-size: 25px;
+    margin-top: 0px;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container_search {
+    margin: 50px 0px 0px 50px;
+    width: 90%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input {
+    height: 100%;
+    border: 2px solid gray;
+    border-radius: 5px;
+    width: 60%;
+    margin: 5px;
+}
+
+.searchBtn {
+    /* margin-right: 200px; */
+    width: 37%;
+    height: 100%;
+    border-radius: 5px;
+    background-color: green;
+    transition: .2s;
+}
+
+.movie {
+    text-align: center;
+    margin-top: 2px;
+}
+
+.moreBtn {
+    width: 100%;
+    height: 40px;
+    margin-top: 9px;
+    border-radius: 5px;
+    background-color: green;
+    transition: .2s;
+}
+
+.searchBtn,
+.moreBtn {
+    cursor: pointer;
+    background-color: greenyellow;
+    border: 2px solid black;
+}
