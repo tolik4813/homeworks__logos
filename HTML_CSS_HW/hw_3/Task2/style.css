@@ -1,0 +1,351 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 660px;
+}
+
+.headder {
+    background: #faebd6;
+    height: 130px;
+    width: 660px;
+    margin: auto;
+    float: left;
+}
+
+.inside_header {
+    background: #d1b48c;
+    height: 60px;
+    width: 530px;
+    margin: 5% 10%;
+    float: left;
+}
+
+.headder_content {
+    background: #feffef;
+    height: 30px;
+    width: 200px;
+    margin: -12% 35%;
+    text-align: center;
+    float: left;
+}
+
+.menu {
+    height: 100px;
+    width: 660px;
+}
+
+.menu_1 {
+    background: #5e9ea0;
+    height: 100px;
+    width: 132px;
+    float: left;
+    text-align: center;
+}
+
+.menu_2 {
+    background: #6395ec;
+    height: 100px;
+    width: 132px;
+    float: left;
+    text-align: center;
+}
+
+.menu_3 {
+    background: #f5deb4;
+    height: 100px;
+    width: 132px;
+    float: left;
+    text-align: center;
+}
+
+.menu_4 {
+    background: #ef807f;
+    height: 100px;
+    width: 132px;
+    float: left;
+    text-align: center;
+}
+
+.menu_5 {
+    background: #4b0081;
+    height: 100px;
+    width: 132px;
+    float: left;
+    text-align: center;
+}
+
+.container_left {
+    height: 300px;
+    width: 220px;
+    background: #008001;
+    float: left;
+}
+
+.text {
+    background: #c0c0c0;
+    height: 65px;
+    width: 130px;
+    margin: 15px auto 25px;
+    text-align: center;
+}
+
+.text_content {
+    margin: 18% 41%;
+    float: left;
+}
+
+.three {
+    height: 65px;
+    width: 110px;
+    background: #8a0101;
+    margin: auto;
+    text-align: center;
+}
+
+.four {
+    height: 130px;
+    width: 55px;
+    background: #fa8171;
+    float: left;
+    text-align: center;
+}
+
+.four_five {
+    height: 130px;
+    width: 110px;
+    margin: auto;
+}
+
+.five {
+    height: 130px;
+    width: 55px;
+    background: #bdb76b;
+    float: left;
+    text-align: center;
+}
+
+.container_center {
+    height: 300px;
+    width: 220px;
+    float: left;
+}
+
+.a {
+    height: 30px;
+    width: 100%;
+    background: #008181;
+    text-align: center;
+}
+
+.b {
+    width: 74px;
+    height: 270px;
+    background: #66ceac;
+    float: left;
+}
+
+.b_1 {
+    width: 37px;
+    height: 200px;
+    background: #a62525;
+    float: left;
+    margin: 95% 0;
+    text-align: center;
+}
+
+.b_2 {
+    width: 37px;
+    height: 100px;
+    background: #aeff2b;
+    float: left;
+    margin: 205% 0;
+    text-align: center;
+}
+
+.c {
+    width: 74px;
+    height: 270px;
+    float: left;
+}
+
+.c_1 {
+    width: 74px;
+    height: 65px;
+    background: #aed9e7;
+    text-align: center;
+}
+
+.c_2 {
+    width: 74px;
+    height: 65px;
+    background: #00008c;
+    text-align: center;
+}
+
+.c_3 {
+    width: 74px;
+    height: 65px;
+    background: #8c008c;
+    text-align: center;
+}
+
+.c_4 {
+    background: #fdf5e7;
+    width: 37px;
+    height: 75px;
+    text-align: center;
+    float: left;
+}
+
+.c_5 {
+    background: #fa8173;
+    width: 37px;
+    height: 75px;
+    text-align: center;
+    float: left;
+}
+
+.d {
+    width: 72px;
+    height: 270px;
+    float: left;
+    margin: 0;
+}
+
+.d_0 {
+    text-align: center;
+    width: 74px;
+    height: 65px;
+    background: #3ee1d1;
+}
+
+.d_1 {
+    text-align: center;
+    width: 74px;
+    height: 65px;
+    background: #008181;
+}
+
+.d_3 {
+    width: 74px;
+    height: 140px;
+    background: #ffdfaf;
+    text-align: center;
+}
+
+.d_3_img {
+    height: 30px;
+    width: 40px;
+    margin: 50% 22%;
+}
+
+.container_right {
+    height: 300px;
+    width: 220px;
+    float: left;
+}
+
+.first {
+    width: 74px;
+    height: 30px;
+    text-align: center;
+    background: #90bd90;
+    float: left;
+}
+
+.second {
+    width: 74px;
+    height: 30px;
+    text-align: center;
+    background: #db71d7;
+    float: left;
+}
+
+.third {
+    width: 72px;
+    height: 30px;
+    text-align: center;
+    background: #ff804f;
+    float: left;
+}
+
+.inside {
+    height: 50px;
+    width: 100%;
+    background: #faf0e7;
+    float: left;
+    margin: auto;
+}
+
+.red {
+    height: 20px;
+    width: 90px;
+    background: #ff0000;
+    margin: 7% auto;
+}
+
+.black_mini {
+    height: 6px;
+    width: 18px;
+    background: #000000;
+    margin: -10% auto;
+}
+
+.sixth {
+    text-align: center;
+    height: 50px;
+    width: 100%;
+    background: #dddddd;
+    float: left;
+}
+
+.seventh {
+    height: 170px;
+    width: 74px;
+    text-align: center;
+    background: #2b4e4e;
+    float: left;
+}
+
+.eighth {
+    height: 60px;
+    width: 146px;
+    text-align: center;
+    background: #718191;
+    float: left;
+}
+
+.ninth {
+    text-align: center;
+    background: #8b27e3;
+    height: 50px;
+    width: 73px;
+    float: left;
+}
+
+.tenth {
+    text-align: center;
+    background: #fafad3;
+    height: 50px;
+    width: 73px;
+    float: left;
+}
+
+.eleventh {
+    height: 60px;
+    width: 146px;
+    text-align: center;
+    background: #dea1de;
+    float: left;
+}
+
+.down {
+    height: 100px;
+    width: 660px;
+    background: #696969;
+    text-align: center;
+    float: left;
+}

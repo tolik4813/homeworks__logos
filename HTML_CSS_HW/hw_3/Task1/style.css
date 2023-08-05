@@ -1,0 +1,32 @@
+.box_1 {
+height: 100px;
+width: 190px;
+background: aqua;
+margin: 15px auto;
+border: 1px dashed red;
+
+}
+.box_2 {
+    height: 100px;
+    width: 190px;
+    background: yellow;
+    margin: 15px auto;
+    border: 1px dotted red;
+}
+.box_3 {
+    height: 100px;
+    width: 190px;
+    background: aqua;
+    margin: 15px auto;
+    border-top: 15px solid darkblue;
+    border-left: 15px solid darkblue;
+    border-right: 15px solid blue;
+    border-bottom: 15px solid blue;;
+}
+.box_4 {
+    height: 100px;
+    width: 190px;
+    background: aqua;
+    margin: 15px auto;
+    border-left: 5px solid black;
+}

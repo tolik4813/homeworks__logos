@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+$r: relative;
+$a: absolute;
+$max-width: 100%;
+
+@mixin height_and_bg-color ($height, $color) {
+    height: $height;
+    background-color: $color;
+}
+
+.container {
+    @include height_and_bg-color(100vh, #ED785F);
+    width: $max-width;
+    position: $r;
+}
+
+.blue_container {
+    @include height_and_bg-color(270px,#62B0C8);
+    width: $max-width;
+    position: $a;
+    left: 0;
+    top: 100px;
+
+    .blue_content_box {
+        height: 270px;
+        float: left;
+        width: 95px;
+        display: flex;
+        overflow: hidden;
+        justify-content: center;
+        align-items: center;
+        border-left: 1px solid gray;
+    }
+}
+
+.block_more_space {
+    @include height_and_bg-color(270px,#FFFFFF);
+    width: 0px;
+    float: left;
+    transition: 1s;
+    overflow: hidden;
+}
+
+.blue_content_box:hover+.block_more_space {
+    width: 450px;
+}
+
+.blue_content_box:hover {
+    .icons {
+        width: 65px;
+        height: 65px;
+    }
+}
+
+.show_text {
+    width: 440px;
+    height: 270px;
+    transition: .5s;
+
+    .max_text {
+        position: $r;
+        top: 25%;
+        left: 15px;
+        font-size: 55px;
+    }
+
+    .min_text {
+        position: $r;
+        top: 30%;
+        left: 15px;
+        font-size: 19px;
+        font-weight: 100;
+    }
+}
+
+.block_icons_father {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -20px;
+    transition: 1s;
+
+    &:hover {
+        background-position: -155px;
+    }
+}
+
+.twitter {
+    @extend .block_icons_father;
+    background-image: url(./img/twiter_bg-min.jpg);
+}
+
+.facebook {
+    @extend .block_icons_father;
+    background-image: url(./img/facebook_bg-min.jpg);
+}
+
+.linkedin {
+    @extend .block_icons_father;
+    background-image: url(./img/linkedIn_bg-min.jpg);
+}
+
+.instagram {
+    @extend .block_icons_father;
+    background-image: url(./img/instagram_bg-min.jpg);
+}
+
+.youtube {
+    @extend .block_icons_father;
+    background-image: url(./img/youtube_bg-min.jpg);
+}
+
+.tumblr {
+    @extend .block_icons_father;
+    background-image: url(./img/tumbler_bg-min.jpg);
+}
+
+.dribbble {
+    @extend .block_icons_father;
+    background-image: url(./img/dribbble_bg-min.jpg);
+}

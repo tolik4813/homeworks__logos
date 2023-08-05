@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+  background-color: #ED785F;
+  width: 100%;
+  position: relative;
+}
+
+.blue_container {
+  height: 270px;
+  background-color: #62B0C8;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 100px;
+}
+.blue_container .blue_content_box {
+  height: 270px;
+  float: left;
+  width: 95px;
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  border-left: 1px solid gray;
+}
+
+.block_more_space {
+  height: 270px;
+  background-color: #FFFFFF;
+  width: 0px;
+  float: left;
+  transition: 1s;
+  overflow: hidden;
+}
+
+.blue_content_box:hover + .block_more_space {
+  width: 450px;
+}
+
+.blue_content_box:hover .icons {
+  width: 65px;
+  height: 65px;
+}
+
+.show_text {
+  width: 440px;
+  height: 270px;
+  transition: 0.5s;
+}
+.show_text .max_text {
+  position: relative;
+  top: 25%;
+  left: 15px;
+  font-size: 55px;
+}
+.show_text .min_text {
+  position: relative;
+  top: 30%;
+  left: 15px;
+  font-size: 19px;
+  font-weight: 100;
+}
+
+.block_icons_father, .dribbble, .tumblr, .youtube, .instagram, .linkedin, .facebook, .twitter {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: -20px;
+  transition: 1s;
+}
+.block_icons_father:hover, .dribbble:hover, .tumblr:hover, .youtube:hover, .instagram:hover, .linkedin:hover, .facebook:hover, .twitter:hover {
+  background-position: -155px;
+}
+
+.twitter {
+  background-image: url(./img/twiter_bg-min.jpg);
+}
+
+.facebook {
+  background-image: url(./img/facebook_bg-min.jpg);
+}
+
+.linkedin {
+  background-image: url(./img/linkedIn_bg-min.jpg);
+}
+
+.instagram {
+  background-image: url(./img/instagram_bg-min.jpg);
+}
+
+.youtube {
+  background-image: url(./img/youtube_bg-min.jpg);
+}
+
+.tumblr {
+  background-image: url(./img/tumbler_bg-min.jpg);
+}
+
+.dribbble {
+  background-image: url(./img/dribbble_bg-min.jpg);
+}
+
+/*# sourceMappingURL=style.css.map */

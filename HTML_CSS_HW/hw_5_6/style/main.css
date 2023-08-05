@@ -1,0 +1,115 @@
+/* Block name company */
+.name {
+    position: absolute;
+    top: 80px;
+    left: 162px;
+    height: 130px;
+    width: 583px;
+    border-radius: 30px;
+    background: #FEFEFE;
+}
+
+.name_text {
+    position: absolute;
+    top: 32px;
+    left: 38px;
+}
+
+
+/* Block company/organisation */
+.company {
+    position: absolute;
+    left: 625px;
+    height: 130px;
+    width: 583px;
+    border-radius: 30px;
+    background: #FEFEFE;
+}
+
+.company_text {
+    position: absolute;
+    height: 66px;
+    width: 227px;
+    top: 32px;
+    left: 42px;
+}
+
+/* Block description*/
+.description {
+    height: 194px;
+    position: absolute;
+    width: 732px;
+    border-radius: 30px;
+    background: #FEFEFE;
+    top: 244px;
+    left: 158px;
+
+}
+
+.description_text {
+    position: absolute;
+    height: 126px;
+    width: 624px;
+    top: 34px;
+    left: 42px;
+}
+
+.another_marg {
+    margin: 0 0 8px 0;
+}
+
+/* Block team */
+.team {
+    height: 194px;
+    position: absolute;
+    width: 732px;
+    border-radius: 30px;
+    background: #FEFEFE;
+    top: 460px;
+    left: 158px;
+}
+
+.team_img {
+    height: 138.26087951660156px;
+    width: 120px;
+    float: left;
+    margin-right: 49px;
+}
+
+.team_img_settings {
+    height: 138.26087951660156px;
+    width: 120px;
+}
+
+/* Block data */
+.data {
+    position: absolute;
+    height: 410px;
+    width: 447px;
+    border-radius: 30px;
+    background: #FEFEFE;
+    top: 244px;
+    left: 923px;
+}
+
+.data_img {
+    position: absolute;
+    width: 120px;
+    height: 115.32px;
+    left: 56px;
+    top: 19px;
+}
+
+.img_data_setings {
+    position: absolute;
+    width: 120px;
+    height: 115.32px;
+}
+
+.data_text {
+    position: absolute;
+    height: 198px;
+    width: 366px;
+    top: 159px;
+    left: 56px;
+}

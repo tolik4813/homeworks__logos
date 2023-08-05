@@ -1,0 +1,108 @@
+/* Top grup */
+.group_1 {
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    width: 1297px;
+    height: 325px;
+    left: 55px;
+    top: 40px;
+}
+
+/* Down group */
+.group_2 {
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    width: 1297px;
+    height: 325px;
+    left: 55px;
+    top: 380px;
+}
+
+/* White mini content box */
+.content_rectangle {
+    height: 325px;
+    width: 300px;
+    display: flex;
+    position: relative;
+    background: #FFFFFF;
+    border-radius: 41px;
+}
+
+.content_rectangle:hover {
+    background: #2684F7;
+}
+
+.content_rectangle:hover::after {
+    content: '';
+    height: 76px;
+    width: 82px;
+    border-radius: 20px;
+    background: #FFFFFF;
+    position: absolute;
+    left: 240px;
+    bottom: 270px;
+    cursor: pointer;
+    background-image: url(./team_img/trash-alt\ 1.svg);
+    background-size: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.content_rectangle::after {
+    content: '';
+}
+
+.content_rectangle:hover .min_text {
+    color: white;
+}
+
+.content_rectangle:hover .max_text {
+    color: white;
+}
+
+/* Img content inside white box */
+.img_team {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+}
+
+.img_team_setings {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 98px;
+    top: 51px;
+    border-radius: 50px;
+}
+
+/* text content inside white box */
+.text_main {
+    position: relative;
+    height: 64px;
+    width: 232px;
+    top: 162px;
+    left: 70px;
+    text-align: center;
+}
+
+.long_name {
+    position: relative;
+    height: 64px;
+    width: 300px;
+    top: 162px;
+    left: 70px;
+    line-height: 33px;
+    text-align: center;
+}
+
+.text_suport {
+    position: relative;
+    width: 215px;
+    height: 44px;
+    left: -80px;
+    top: 254px;
+    text-align: center;
+}

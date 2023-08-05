@@ -1,0 +1,549 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+
+/* header style */
+
+.header {
+    height: 120px;
+    margin: 0 auto;
+    width: 1240px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    height: 30px;
+    width: 157px;
+}
+
+/* Hrest style */
+
+.checkbox {
+    display: none;
+}
+
+.content_fake_button {
+    display: flex;
+    align-items: flex-start;
+    padding-left: 66px;
+    padding-top: 55px;
+    padding-bottom: 55px;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 359px;
+    width: 344px;
+    position: absolute;
+    top: 104px;
+    left: 47px;
+    background-color: #FFFFFF;
+    transition: .2s;
+    opacity: 0;
+    box-shadow: 0px 4px 22px rgba(0, 0, 0, 0.1);
+}
+
+.fake_button {
+    background-image: url(./img/close_menu.svg);
+    background-position: center;
+    position: absolute;
+    display: block;
+    width: 23px;
+    height: 23px;
+    top: 49px;
+    left: 47px;
+    cursor: pointer;
+    transition: .1s;
+}
+
+.checkbox:checked~.content_fake_button {
+    opacity: 1;
+}
+
+/* Content insaid Hrest chekbox */
+
+.text_content_fake_button {
+    width: 64px;
+    height: 24px;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration-line: underline;
+    color: #000000;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+/* Main container */
+.main {
+    margin: 0 auto;
+    width: 1240px;
+}
+/* Double foto */
+
+.container_double_foto {
+    width: 1240px;
+    height: 570px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.first_foto {
+    width: 620px;
+    height: 570px;
+    background-image: url(./img/black_man.png);
+}
+
+.second_foto {
+    background-color: #000000;
+    width: 620px;
+    height: 570px;
+    position: relative;
+}
+
+/* content second foto */
+
+.numbers_text {
+    position: absolute;
+    width: 136px;
+    height: 21px;
+    left: 104px;
+    top: 128px;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 7px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.underline_text {
+    position: absolute;
+    width: 75px;
+    height: 24px;
+    left: 435px;
+    top: 125px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+
+.max_text {
+    position: absolute;
+    width: 394px;
+    height: 84px;
+    left: 104px;
+    top: 185px;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 42px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.min_text {
+    position: absolute;
+    width: 411px;
+    height: 63px;
+    left: 105px;
+    top: 292px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.read_more {
+    position: absolute;
+    width: 198px;
+    height: 55px;
+    left: 104px;
+    top: 391px;
+    background-color: #000000;
+    border: 1px solid white;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    transition: .2s;
+}
+
+.read_more:hover {
+    border: 5px solid white;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+/* Big container */
+
+.container_big {
+    width: 1240px;
+    height: 740px;
+    position: relative;
+}
+
+.featured {
+    position: absolute;
+    width: 86px;
+    height: 27px;
+    left: 150px;
+    top: 59px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #1F1F1D;
+}
+
+.foto_one {
+    position: absolute;
+    background-image: url(./img/black_white_man.png);
+    width: 455px;
+    height: 301px;
+    left: 150px;
+    top: 107px;
+}
+
+.foto_two {
+    position: absolute;
+    background-image: url(./img/color_man.png);
+    width: 455px;
+    height: 301px;
+    left: 635px;
+    top: 107px;
+}
+
+.number_text {
+    position: absolute;
+    width: 117px;
+    height: 18px;
+    left: 150px;
+    top: 435px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 6px;
+    color: #000000;
+}
+
+.lifestyle {
+    position: absolute;
+    width: 57px;
+    height: 18px;
+    left: 548px;
+    top: 435px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: right;
+    text-decoration-line: underline;
+    color: #000000;
+}
+
+.two {
+    left: 636px;
+}
+
+.second {
+    left: 1034px;
+}
+
+.max_text_under_foto {
+    position: absolute;
+    width: 455px;
+    height: 72px;
+    left: 150px;
+    top: 487px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #1F1F1D;
+}
+
+.min_text_under_foto {
+    position: absolute;
+    width: 455px;
+    height: 81px;
+    left: 150px;
+    top: 578px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+    color: #1F1F1D;
+}
+
+.another {
+    left: 636px;
+
+}
+
+.another_2 {
+    left: 636px;
+}
+
+/* Small container */
+
+.container_small {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    width: 1240px;
+    padding-left: 148px;
+    padding-right: 148px;
+    height: 420px;
+}
+
+.one_block {
+    position: relative;
+    width: 295px;
+    height: 306px;
+}
+
+.thri_img {
+    position: absolute;
+    width: 295px;
+    height: 195px;
+    left: 0px;
+    top: 0px;
+}
+
+.number {
+    position: absolute;
+    width: 117px;
+    height: 18px;
+    left: 2px;
+    top: 219px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 6px;
+    color: #1F1F1D;
+}
+
+.lifestyle_in_block {
+    position: absolute;
+    width: 57px;
+    height: 18px;
+    left: 237px;
+    top: 219px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: right;
+    text-decoration-line: underline;
+    color: #000000;
+}
+
+.some_text {
+    position: absolute;
+    width: 293px;
+    height: 54px;
+    left: 2px;
+    top: 259px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #1F1F1D;
+}
+
+/* Button seting */
+
+.see_all {
+    position: absolute;
+    width: 238px;
+    height: 42px;
+    left: 50%;
+    bottom: 0;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #303030;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    border: none;
+    transition: .2s;
+}
+
+.see_all:hover {
+    border: 3px solid black;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* Near two foto */
+
+.near_two_foto {
+    height: 485px;
+    width: 1240px;
+    position: relative;
+}
+
+.near_foto_one {
+    position: absolute;
+    width: 470px;
+    height: 360px;
+    left: 150px;
+    top: 60px;
+}
+
+.near_foto_two {
+    position: absolute;
+    width: 470px;
+    height: 360px;
+    left: 619px;
+    top: 60px;
+    background-color: #000000;
+}
+
+.text_two_foto {
+    position: absolute;
+    width: 335px;
+    height: 51px;
+    left: 57px;
+    top: 123px;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 51px;
+    color: #FFFFFF;
+}
+
+.button_two_foto {
+    position: absolute;
+    width: 198px;
+    height: 42px;
+    left: 129px;
+    top: 194px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    background-color: #000000;
+    color: #FFFFFF;
+    border: 1px solid white;
+    transition: .2s;
+}
+
+.button_two_foto:hover {
+    border: 5px solid white;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.interviews_text {
+    position: absolute;
+    width: 99px;
+    height: 27px;
+    left: 150px;
+    bottom: 430px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #1F1F1D;
+}
+
+.interviews_text_inside {
+    position: absolute;
+    width: 66px;
+    height: 18px;
+    left: 229px;
+    top: 212px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: right;
+    text-decoration-line: underline;
+    color: #000000;
+}
+
+.last {
+    margin-top: 60px;
+}
+
+/* Footer */
+
+.footer {
+    position: relative;
+    width: 1240px;
+    height: 142px;
+    margin: 0 auto;
+    margin-top: 100px;
+    background: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_logo {
+    height: 27px;
+    width: 142px;
+}
+
+.footer_small_text {
+    position: absolute;
+    width: 102px;
+    height: 18px;
+    left: px;
+    top: 120px;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.logo {
+    background-image: url(./img/logo.svg);
+}
+
+.women_yellow {
+    background-image: url(./img/women_yellow.png);
+}
+
+.books {
+    background-image: url(./img/books.png);
+}
+
+.mans {
+    background-image: url(./img/3_mans.png);
+}
+
+.open_book {
+    background-image: url(./img/open_book.png);
+}
+
+.peple_fotostudio {
+    background-image: url(./img/peple_fotostudio.png);
+}
+
+.man_and_dog {
+    background-image: url(./img/man_and_dog.png);
+}
+
+.women_m {
+    background-image: url(./img/women_m.png);
+}
+
+.microfone {
+    background-image: url(./img/microfone.jpg);
+}
+
+.gaseta {
+    background-image: url(./img/gaseta.jpg);
+}
+
+.many_gasets {
+    background-image: url(./img/many_gasets.jpg);
+}
+
+.footer_logo {
+    background-image: url(./img/logo_white.svg);
+}

@@ -1,0 +1,10 @@
+* {
+    background-color: silver;
+}
+#text {
+    text-align: right;
+    color: #fff;
+    font-weight: 900;
+    background-color: lightseagreen;
+    font-size: 20px;
+}

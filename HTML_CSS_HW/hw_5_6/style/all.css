@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: bahij-sultannahia;
+}
+
+/* All seitings text */
+@font-face {
+    font-family: bahij-sultannahia;
+    src: url(./fonts/bahij-sultannahia.ttf);
+}
+
+@font-face {
+    font-family: ChronicaPro-Regular;
+    src: url(./fonts/ChronicaPro-Regular.ttf);
+}
+
+.min_text {
+    font-size: 18px;
+    color: #B1B1B1;
+    font-family: ChronicaPro-Regular;
+    font-weight: 700;
+}
+
+.max_text {
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 8px;
+}
+
+/* Menu */
+.menu {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 486px;
+    height: 44px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: #2785F7;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* Active menu */
+.active {
+    color: #2785F7;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* Big container */
+.main_contaner {
+    display: flex;
+    justify-content: center;
+    width: 1440px;
+    height: 900px;
+    margin: 0 auto;
+}
+
+/* Grey container */
+.conainer_content {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    height: 726px;
+    width: 1404px;
+    margin-top: 130px;
+    background: #EAEBED;
+    border-radius: 30px;
+}
+
+/* show text hover effect */
+.text_show {
+    display: none;
+    position: absolute;
+    transition: 1s;
+}
+
+.img_mini:hover .text_show {
+    display: block;
+    z-index: 3;
+    position: absolute;
+    left: 70px;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+/* Left menu settings */
+.left_menu {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 420px;
+    width: 105px;
+    border-radius: 30px;
+    left: 23px;
+    top: 171px;
+    background: #FEFEFE;
+}
+
+.img_mini {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    height: 62px;
+    width: 67px;
+    border-radius: 15px;
+}
+
+.icons {
+    height: 33.0113639831543px;
+    width: 35px;
+    z-index: 11;
+}
+
+.img_mini:hover::after {
+    content: '';
+    background: #2785F7;
+    height: 62px;
+    width: 151px;
+    border-radius: 15px;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.img_mini::after {
+    content: '';
+    position: absolute;
+    height: 62px;
+    width: 67px;
+    border-radius: 15px;
+    transition: .8s;
+    left: 0px;
+}

@@ -1,0 +1,333 @@
+/* Name container  */
+.name_container {
+    height: 149px;
+    width: 615px;
+    border-radius: 30px;
+    position: absolute;
+    left: 158px;
+    top: 20px;
+    background: #FEFEFE;
+}
+
+/* A icons  */
+.icons_a {
+    height: 65px;
+    position: absolute;
+    width: 65px;
+    left: 42px;
+    top: 42px;
+    border-radius: 40px;
+    background: #F24F5E;
+    display: flex;
+    justify-content: center;
+}
+
+.a_box {
+    position: absolute;
+    top: 16px;
+    height: 53px;
+    width: 27px;
+}
+
+/* Name container text   */
+.name_text {
+    position: absolute;
+    height: 71px;
+    width: 205px;
+    left: 150px;
+    top: 39px;
+}
+
+/* Change Password  */
+.password_container {
+    background: #FEFEFE;
+    position: absolute;
+    border-radius: 30px;
+    height: 517px;
+    width: 618px;
+    left: 158px;
+    top: 189px;
+}
+
+/* Padlok icons  */
+.padlock {
+    height: 65px;
+    width: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 42px;
+    top: 27px;
+    border-radius: 40px;
+    background: #2785F7;
+}
+
+.two {
+    position: absolute;
+    left: 47px;
+    top: 42px;
+}
+
+.padlock_icons {
+    height: 40px;
+    width: 40px;
+}
+
+/* Pasword text */
+.pasword_text {
+    height: 100px;
+    width: 438px;
+    position: absolute;
+    left: 149px;
+    top: 27px;
+}
+
+.max_text_password {
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 8px;
+}
+
+/* inner old password */
+.old_text {
+    height: 23px;
+    width: 127px;
+    position: absolute;
+    left: 48px;
+    top: 134px;
+    font-size: 18px;
+}
+
+.old_password_input {
+    height: 63px;
+    width: 524px;
+    position: absolute;
+    left: 47px;
+    top: 179px;
+    border-radius: 21px;
+    padding-left: 14px;
+    font-size: 18px;
+}
+
+.old_password_input:focus {
+    border: 2px solid #2785F7;
+}
+
+/* inner new password */
+.new_text {
+    height: 23px;
+    width: 127px;
+    position: absolute;
+    left: 48px;
+    top: 258px;
+    font-size: 18px;
+}
+
+.new_password_input {
+    height: 63px;
+    width: 524px;
+    position: absolute;
+    left: 47px;
+    top: 303px;
+    border-radius: 21px;
+    padding-left: 14px;
+    font-size: 18px;
+}
+
+.new_password_input:focus {
+    border: 2px solid #2785F7;
+}
+
+/* inner confirm password */
+.confirm_text {
+    height: 23px;
+    width: 127px;
+    position: absolute;
+    left: 48px;
+    top: 381px;
+    font-size: 18px;
+}
+
+.confirm_password_input {
+    height: 63px;
+    width: 524px;
+    position: absolute;
+    left: 47px;
+    top: 426px;
+    border-radius: 21px;
+    padding-left: 14px;
+    font-size: 18px;
+}
+
+.confirm_password_input:focus {
+    border: 2px solid #2785F7;
+}
+
+/* Container company */
+.container_company {
+    height: 679px;
+    width: 588px;
+    position: absolute;
+    left: 790px;
+    top: 20px;
+    background: #FEFEFE;
+    border-radius: 30px;
+}
+
+/* company text */
+.company_text {
+    position: absolute;
+    width: 370px;
+    height: 89px;
+    left: 155px;
+    top: 32px;
+}
+
+/* inner company name */
+.company_name_text {
+    height: 23px;
+    width: 127px;
+    position: absolute;
+    left: 47px;
+    top: 129px;
+    font-size: 18px;
+}
+
+.company_name_input {
+    height: 64px;
+    width: 494px;
+    position: absolute;
+    left: 47px;
+    top: 174px;
+    border-radius: 21px;
+    padding-left: 14px;
+    font-size: 18px;
+}
+
+.company_name_input:focus {
+    border: 2px solid #2785F7;
+}
+
+/* inner company address */
+.company_address_text {
+    height: 23px;
+    width: 127px;
+    position: absolute;
+    left: 47px;
+    top: 260px;
+    font-size: 18px;
+}
+
+.company_address_input {
+    height: 100px;
+    width: 494px;
+    position: absolute;
+    display: flex;
+    left: 47px;
+    top: 305px;
+    border-radius: 21px;
+    padding-left: 14px;
+    padding-bottom: 50px;
+    font-size: 18px;
+}
+
+.company_address_input:focus {
+    border: 2px solid #2785F7;
+}
+
+/* inner country */
+.country_text {
+    height: 23px;
+    width: 127px;
+    position: absolute;
+    left: 47px;
+    top: 427px;
+    font-size: 18px;
+}
+
+.country_input {
+    height: 63px;
+    width: 237px;
+    position: absolute;
+    left: 47px;
+    top: 472px;
+    border-radius: 21px;
+    padding-left: 14px;
+    font-size: 18px;
+}
+
+.country_input:focus {
+    border: 2px solid #2785F7;
+}
+/* inner city */
+.city_text {
+    height: 23px;
+    width: 127px;
+    position: absolute;
+    left: 304px;
+    top: 427px;
+    font-size: 18px;
+}
+
+.city_input {
+    height: 63px;
+    width: 237px;
+    position: absolute;
+    left: 304px;
+    top: 472px;
+    border-radius: 21px;
+    padding-left: 14px;
+    font-size: 18px;
+}
+
+.city_input:focus {
+    border: 2px solid #2785F7;
+}
+/* inner state */
+.state_text {
+    height: 23px;
+    width: 127px;
+    position: absolute;
+    left: 47px;
+    top: 550px;
+    font-size: 18px;
+}
+
+.state_input {
+    height: 63px;
+    width: 237px;
+    position: absolute;
+    left: 47px;
+    top: 595px;
+    border-radius: 21px;
+    padding-left: 14px;
+    font-size: 18px;
+}
+
+.state_input:focus {
+    border: 2px solid #2785F7;
+}
+/* inner postal */
+.postal_text {
+    height: 23px;
+    width: 127px;
+    position: absolute;
+    left: 304px;
+    top: 550px;
+    font-size: 18px;
+}
+
+.postal_input {
+    height: 63px;
+    width: 237px;
+    position: absolute;
+    left: 304px;
+    top: 595px;
+    border-radius: 21px;
+    padding-left: 14px;
+    font-size: 18px;
+}
+.postal_input:focus {
+    border: 2px solid #2785F7;
+}

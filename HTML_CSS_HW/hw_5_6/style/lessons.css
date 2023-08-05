@@ -1,0 +1,156 @@
+/* Top table name all groups */
+.name_table {
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    position: absolute;
+    height: 40px;
+    top: 138px;
+    width: 1090px;
+}
+
+/* white  big container arround tabel content */
+.table_content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 1194px;
+    height: 64px;
+    border-radius: 21px;
+}
+
+.table_content:hover {
+    background: #FFFFFF;
+    cursor: pointer;
+}
+
+.table_content:hover .download {
+    background: #2684F7;
+    cursor: pointer;
+}
+
+/* Chelbox style */
+.checkbox {
+    display: none;
+}
+.fake {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    border-radius: 11px;
+    position: relative;
+    top: 5px;
+    left: 40px;
+    background-color: #FFFFFF;
+    border: 1px solid black;
+    transition: .2s;
+}
+.fake::before {
+    content: '';
+    background-image:url(./lessoms_img/tick\ 1.svg);
+    background-size: 26px;
+    position: absolute;
+    display: block;
+    width: 26px;
+    height: 26px;
+    background-color: #2684F7;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+    transition: .2s;
+}
+
+.checkbox:checked + .fake::before {
+    opacity: 1;
+}
+.checkbox:checked +.fake {
+    background-color:#2684F7;
+}
+
+/* litel tabel container inside this container
+is text inside table */
+.tabel_content_box {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 24px;
+    width: 1090px;
+    height: 40px;
+    text-align: center;
+}
+
+/* download button inside table */
+.download_img {
+    height: 22px;
+    width: 20px;
+}
+
+.download {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 11px;
+    background: #FFFFFF;
+}
+
+/* firs table element */
+.first {
+    left: 86px;
+    top: 200px;
+}
+
+/* second table element */
+.second {
+    left: 86px;
+    top: 300px;
+}
+
+/* third table element */
+.third {
+    left: 86px;
+    top: 400px;
+}
+
+/* four table element */
+.four {
+    left: 86px;
+    top: 500px;
+}
+
+/* five table element */
+.five {
+    left: 86px;
+    top: 600px;
+}
+
+/* Style number */
+.number {
+    height: 40px;
+    width: 138px;
+    position: absolute;
+    left: 270px;
+    top: 8px;
+}
+
+/* Style topic */
+.topic {
+    height: 40px;
+    width: 138px;
+    position: absolute;
+    left: 520px;
+    top: 8px;
+}
+
+/* Style date */
+.date {
+    position: absolute;
+    height: 40px;
+    width: 138px;
+    left: 750px;
+    top: 8px;
+}

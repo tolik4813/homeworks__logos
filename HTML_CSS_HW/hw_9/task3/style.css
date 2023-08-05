@@ -1,0 +1,59 @@
+body {
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url(./Space_star.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.wrapper {
+    width: 500px;
+    height: 350px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.earth {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-image: url(./eart.png);
+    background-position: center;
+}
+.moon {
+    width: 80px;
+    height: 80px;
+    background-color: #e3f2fd;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url(./moon-png-44673.png);
+    background-size: cover;
+    animation: 5s ease-in-out 0s normal none infinite moon-move;
+}
+@keyframes moon-move {
+    0% {
+        left: 12%;
+        top: 55%;
+        z-index: 5;
+    }
+
+    50% {
+        left: 88%;
+        top: 45%;
+    }
+
+    100% {
+        left: 12%;
+        top: 55%;
+        z-index: -5;
+    }
+}
