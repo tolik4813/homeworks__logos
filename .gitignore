@@ -1,1 +1,55 @@
-*.ds
+# Файли, які ігноруються системою macOS
+.DS_Store
+
+# Логи та тимчасові файли
+*.log
+*.tmp
+*.pid
+
+# Кеш-файли
+.cache/
+.cached/
+*.cache
+
+# Файли журналу npm
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Збірка та залежності проекту
+node_modules/
+dist/
+build/
+
+# Файли налаштувань IDE (приклади)
+.vscode/
+.idea/
+*.iml
+
+# Конфігурація для текстових редакторів (приклади)
+*.sublime-project
+*.sublime-workspace
+*.komodoproject
+*.komodotools
+
+# Файли журналу Eclipse (приклад)
+*.log
+
+# Файли журналу Xcode (приклад)
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcworkspace
+*.xcuserstate
+
+# Файли бібліотеки CocoaPods (приклад)
+Pods/
+Podfile.lock
+
+# Кеш редактора Vim (приклад)
+*.swp
+
+# Ігнорування папок та файли в корені проекту (приклади)
+/node_modules
+/dist
+/build
